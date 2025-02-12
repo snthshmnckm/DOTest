@@ -24,7 +24,7 @@ jobs:
       - name: Upload Files
         uses: actions/upload-pages-artifact@v2
         with:
-          path: .  # Upload all files
+          path: upload  # Upload all files
 
       - name: Deploy to GitHub Pages
         id: deployment
